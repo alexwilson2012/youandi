@@ -20,6 +20,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<link rel="stylesheet" type="text/css" href="wp-content/themes/youandi_v0/css/header.css">
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
@@ -30,9 +31,9 @@
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				<span>The bestest blog ever!</span>
+				<img class="yai-header-img" src="wp-content/themes/youandi_v0/images/logo.png">
+				<!-- <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
 			</a>
 		</header><!-- #masthead -->
 
