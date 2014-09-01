@@ -56,5 +56,6 @@ class ResourceManager {
 	}
 }
 
-
+ResourceManager::add('style.css', 'css');
+ResourceManager::add('css/colors.css', 'css');
 ResourceManager::add('css/header.css', 'css');

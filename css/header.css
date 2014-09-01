@@ -1,4 +1,41 @@
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/GillSans-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'StMarie';
+	src: url('../fonts/StMarie-Thin.ttf') format('truetype');
+	font-weight: 300;
+}
+
+
+.yai-fnav-img,
+.yai-fnav-srch {
+	width: 30%;
+}
 .yai-header-img {
+	width: 225px;
+}
+
+.yai-fnav {
+	/* the mint green background color */
+	background-color: #dfeeda;
+	font-family: GillSans, sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	text-align: center;
+	display: table;
 	width: 100%;
-	max-width: 500px;
+}
+.yai-fnav-block {
+	display: table-cell;
+	padding: 20px;
+	vertical-align: middle;
+}
+.yai-fnav-lnk {
+	display: inline-block;
+	padding: 10px 30px;
+	text-transform: uppercase;
 }

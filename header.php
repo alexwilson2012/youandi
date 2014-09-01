@@ -24,16 +24,30 @@
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
-	<?php wp_head(); ?>
+	<?php // wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
+		<div class="yai-fnav yai-color-gray">
+			<div class="yai-fnav-img yai-fnav-block">
+				<img class="yai-header-img" src="<?php echo ResourceManager::IMAGE_PATH . 'logo_m.png'; ?>">
+			</div>
+			<div class="yai-fnav-lnkwrap yai-fnav-block">
+				<div class="yai-fnav-lnk">Home</div>
+				<div class="yai-fnav-lnk">Eat</div>
+				<div class="yai-fnav-lnk">Live</div>
+				<div class="yai-fnav-lnk">About</div>
+			</div>
+			<div class="yai-fnav-srch yai-fnav-block">
+				<input type="text" class="yai-input">
+			</div>
+		</div>
+
 		<header id="masthead" class="site-header" role="banner">
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<img class="yai-header-img" src="<?php echo ResourceManager::IMAGE_PATH . 'logo.png'; ?>">
-				<!-- <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2> -->
+				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 			</a>
 		</header><!-- #masthead -->
 
