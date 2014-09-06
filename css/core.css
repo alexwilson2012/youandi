@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/GillSans-Light.ttf') format('truetype');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'StMarie';
+	src: url('../fonts/StMarie-Thin.ttf') format('truetype');
+	font-weight: 300;
+}
+
+
+/* Everything should be Gill Sans Light */
+body {
+	font-family: GillSans, sans-serif;
+}
+
+.yai-main {
+	margin: 0px 50px;
+}
+
+.yai-title {
+	font-family: StMarie, sans-serif;
+}
+
+.yai-title a {
+    text-decoration: none;
+    color: #9499a2;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.yai-input {
+	border: none;
+	font-size: 22px;
+	font-family: StMarie;
+	padding: 3px;
+}
+
+.yai-content {
+	font-size: 22px;
+}
+
+.yai-primary {
+	display: table-cell;
+}
+.yai-sidebar {
+	display: table-cell;
+	width: 400px;
+}

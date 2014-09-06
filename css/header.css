@@ -1,16 +1,3 @@
-@font-face {
-	font-family: 'GillSans';
-	src: url('../fonts/GillSans-Light.ttf') format('truetype');
-	font-weight: 300;
-}
-
-@font-face {
-	font-family: 'StMarie';
-	src: url('../fonts/StMarie-Thin.ttf') format('truetype');
-	font-weight: 300;
-}
-
-
 .yai-fnav-img,
 .yai-fnav-srch {
 	width: 30%;
@@ -22,7 +9,6 @@
 .yai-fnav {
 	/* the mint green background color */
 	background-color: #dfeeda;
-	font-family: GillSans, sans-serif;
 	font-size: 30px;
 	font-weight: 300;
 	text-align: center;
@@ -38,4 +24,24 @@
 	display: inline-block;
 	padding: 10px 30px;
 	text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1480px) {
+    .yai-fnav-lnk {
+		font-size: 24px;
+		padding: 5px 15px;
+	}
+	.yai-header-img {
+		width: 175px;
+	}
+	.yai-input {
+		max-width: 250px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .yai-fnav-lnk {
+		font-size: 20px;
+	}
 }
