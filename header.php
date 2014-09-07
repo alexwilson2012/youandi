@@ -31,13 +31,13 @@
 	<div id="page" class="hfeed site">
 		<div class="yai-fnav yai-color-gray">
 			<div class="yai-fnav-img yai-fnav-block">
-				<img class="yai-header-img" src="<?php echo ResourceManager::IMAGE_PATH . 'logo_m.png'; ?>">
+				<img class="yai-header-img" src="<?php echo ResourceManager::getImg('logo_m.png'); ?>">
 			</div>
 			<div class="yai-fnav-lnkwrap yai-fnav-block">
-				<div class="yai-fnav-lnk">Home</div>
-				<div class="yai-fnav-lnk">Eat</div>
-				<div class="yai-fnav-lnk">Live</div>
-				<div class="yai-fnav-lnk">About</div>
+				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url(); ?>">Home</a>
+				<a class="yai-fnav-lnk yai-color-gray">Eat</a>
+				<a class="yai-fnav-lnk yai-color-gray">Live</a>
+				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url().'/about'; ?>">About</a>
 			</div>
 			<div class="yai-fnav-srch yai-fnav-block">
 				<input type="text" class="yai-input">

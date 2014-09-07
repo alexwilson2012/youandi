@@ -24,7 +24,7 @@ add_filter( 'wp_title', 'youandi_wp_title', 10, 2 );
 class ResourceManager {
 	private static $store;
 
-	const IMAGE_PATH = 'wp-content/themes/youandi/images/';
+	const IMAGE_PATH = '/wp-content/themes/youandi/images/';
 
 	public static function add($name, $type) {
 		if (!isset(self::$store)) {
@@ -41,6 +41,10 @@ class ResourceManager {
 
 		$root_path = get_bloginfo('template_directory');
 		self::$store[$type][] = "$root_path/$name";
+	}
+
+	public static function getImg($filename) {
+		return get_home_url() . self::IMAGE_PATH . $filename;
 	}
 
 	public static function getTags($type) {

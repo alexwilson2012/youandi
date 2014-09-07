@@ -15,9 +15,9 @@
 		<?php endif; ?>
 
 		<?php if ( is_single() ) : ?>
-		<h1 class="entry-title yai-title"><?php the_title(); ?></h1>
+		<h1 class="entry-title yai-title yai-color-gray"><?php the_title(); ?></h1>
 		<?php else : ?>
-		<h1 class="entry-title yai-title">
+		<h1 class="entry-title yai-title yai-color-gray">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
 		<?php endif; // is_single() ?>
