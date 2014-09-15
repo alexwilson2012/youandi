@@ -35,8 +35,8 @@
 			</div>
 			<div class="yai-fnav-lnkwrap yai-fnav-block">
 				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url(); ?>">Home</a>
-				<a class="yai-fnav-lnk yai-color-gray">Eat</a>
-				<a class="yai-fnav-lnk yai-color-gray">Live</a>
+				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url().'/category/eat'; ?>">Eat</a>
+				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url().'/category/live'; ?>">Live</a>
 				<a class="yai-fnav-lnk yai-color-gray" href="<?php echo get_home_url().'/about'; ?>">About</a>
 			</div>
 			<div class="yai-fnav-srch yai-fnav-block">

@@ -1,0 +1,33 @@
+.yai-main {
+	margin: 0px 0px;
+}
+.yai-gal-row {
+	margin: 0px auto;
+	display: table;
+	margin-bottom: -5px;
+}
+.yai-gal-img {
+	max-width: 100%;
+	height: auto;
+	max-height: 500px;
+}
+.yai-gal-img-div {
+	display: table-cell;
+	vertical-align: top;
+}
+.yai-content {
+	margin: 0px 50px;
+}
+
+.yai-about-title {
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 10px;
+	margin-top: 5px;
+}
+.yai-about-alex {
+	color: #2597C8;
+}
+.yai-about-soph {
+	color: #88C58D;
+}

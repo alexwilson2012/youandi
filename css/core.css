@@ -57,4 +57,9 @@ body {
 	.yai-sidebar {
 		display: none;
 	}
+	/* This could be a bad idea... */
+	img {
+		max-width: 100%;
+		height: auto;
+	}
 }
