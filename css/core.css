@@ -22,13 +22,13 @@ body {
 
 .yai-title {
 	font-family: StMarie, sans-serif;
-    font-size: 45px;
-    font-weight: 300;
+	font-size: 45px;
+	font-weight: 300;
 }
 
 .yai-title a {
-    color: #9499a2;
-    text-decoration: none;
+	color: #9499a2;
+	text-decoration: none;
 }
 
 .yai-input {
@@ -54,7 +54,7 @@ body {
 
 
 @media only screen and (max-width: 1024px) {
-    .yai-sidebar {
-    	display: none;
-    }
+	.yai-sidebar {
+		display: none;
+	}
 }
